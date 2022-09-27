@@ -5,11 +5,11 @@
 node_modules
 .pnp
 .pnp.js
-/.eslintignore
-/.eslintrc.json
-/.prettierignore
-/.prettierrc.json
-/jsconfig.json
+# .eslintignore
+# .eslintrc.json
+# .prettierignore
+# .prettierrc.json
+# jsconfig.json
 
 # testing
 /coverage

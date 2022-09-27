@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "es6",
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "./**/*.js",
+    "./**/*.jsx",
+    "./**/*.ts",
+    "./**/*.tsx",
+    "./*.js",
+    "./*.jsx",
+    "./*.ts",
+    "./*.tsx"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build",
+    ".vscode",
+    ".nuxt",
+    "coverage",
+    "jspm_packages",
+    "tmp",
+    "temp",
+    "bower_components",
+    ".npm",
+    ".yarn"
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
